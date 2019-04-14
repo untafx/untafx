@@ -14,9 +14,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'hi') {
+    if (message.content === '/news') {
 
-       message.reply('pong');
+       message.reply('Last News Update In 14/4/2019 : UntaFx has new post on @untafx Instagram!');
 
        }
 
