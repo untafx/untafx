@@ -36,7 +36,7 @@ client.on('message', message => {
 
     if (message.content === '/memes') {
 
-       message.reply('Last me on 2019 = Spotify meme , MasterChef memes');
+       message.reply('Last meme on 2019 = Spotify meme , MasterChef memes');
 
        }
 
