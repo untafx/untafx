@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === '/news') {
+    if (message.content === '//news') {
 
        message.reply('tayo hehe');
 
