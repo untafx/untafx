@@ -2,6 +2,11 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
+
  
 
 client.on('ready', () => {
