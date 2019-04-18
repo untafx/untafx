@@ -2,10 +2,6 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-message.channel.send({embed: {
-  color: 3447003,
-  description: "A very simple Embed!"
-}});
 
  
 
@@ -21,7 +17,9 @@ client.on('message', message => {
 
     if (message.content === '//news') {
 
-       message.reply('tayo hehe');
+      var embed = new.Discord.RichEmbed()
+        .setDescription("Test");
+      message.channel.sendEmbed(embed)
 
        }
 
