@@ -42,6 +42,16 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === '/help') {
+
+       message.reply('Command = /memes | /about | /info');
+
+       }
+
+});
+
 
 
  
