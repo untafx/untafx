@@ -16,7 +16,7 @@ client.on('message', message => {
 
     if (message.content === '/news') {
 
-       message.reply('Last News Update In 14/4/2019 : UntaFx has new post on @untafx Instagram! :)');
+       client.message.send('Last News Update In 14/4/2019 : UntaFx has new post on @untafx Instagram! :)');
 
        }
 
@@ -26,7 +26,7 @@ client.on('message', message => {
 
     if (message.content === '/about') {
 
-       message.reply('Bot made by UntaFX');
+       client.message.send('Bot made by UntaFX');
 
        }
 
