@@ -44,9 +44,9 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === '/help') {
+    if (message.content === 'uWu') {
 
-       message.reply('Command = /memes | /about | /info');
+       message.reply('oWo');
 
        }
 
