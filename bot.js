@@ -44,7 +44,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'uWu') {
+    if (message.content === 'UwU') {
 
        message.reply('oWo');
 
