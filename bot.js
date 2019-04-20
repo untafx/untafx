@@ -116,7 +116,7 @@ client.on('message', message => {
 
     if (message.content === 'sabar') {
 
-       message.reply('Orang sabar pantanya lebar :v');
+       message.reply('Orang sabar pantatnya lebar :v');
 
        }
 
