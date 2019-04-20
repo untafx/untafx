@@ -102,6 +102,18 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'nolife') {
+
+       message.reply('No life sendiri terdiri dari dua kata yang terdapat di dalam bahasa inggris. Kata tersebut yakni "No" dan juga kata "life". Kata no sendiri didalam bahasa indonesia dapat diartikan sebagai "tidak", dan kata life dapat diartikan sebagai "hidup / kehidupan". Jadi kedua kata tersebut, secara bahasa, secara kasar dapat diartikan sebagai "Tidak hidup" atau lebih mudahnya "Tidak memiliki kehidupan". Nah, dari arti kata nolife saja kita sudah mengetahui secara kasar mengenai definisi kata nolife yang sebenarnya.');
+
+       }
+
+});
+
+
+
 
 
 
