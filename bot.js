@@ -46,7 +46,7 @@ client.on('message', message => {
 
     if (message.content === 'UwU') {
 
-       message.reply('oWo');
+       message.reply('OwO');
 
        }
 
@@ -56,11 +56,22 @@ client.on('message', message => {
 
     if (message.content === 'Nigga') {
 
-       message.reply('You just say the N-WORD!!!. I will call 991!');
+       message.reply('You just say the N-WORD!!!. I will call 911!');
 
        }
 
 });
+
+client.on('message', message => {
+
+    if (message.content === 'Oof') {
+
+       message.reply('OOF!');
+
+       }
+
+});
+
 
 
 
