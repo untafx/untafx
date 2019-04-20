@@ -52,6 +52,16 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'Nigga') {
+
+       message.reply('You just say the N-WORD!!!. I will call 991!');
+
+       }
+
+});
+
 
 
  
