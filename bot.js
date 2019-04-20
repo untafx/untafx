@@ -72,6 +72,16 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'Ashiap') {
+
+       message.reply('ASHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP UWU XD');
+
+       }
+
+});
+
 
 
 
