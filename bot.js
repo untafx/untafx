@@ -92,6 +92,17 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'gak tau males') {
+
+       message.reply('Pengen beli truck!');
+
+       }
+
+});
+
+
 
 
 
