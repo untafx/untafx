@@ -74,9 +74,9 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'Ashiap') {
+    if (message.content === 'hey') {
 
-       message.reply('ASHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP UWU XD');
+       message.reply('tayo :V');
 
        }
 
