@@ -27,7 +27,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === '/about') {
+    if (message.cleancontent === '/about') {
 
        message.reply('Bot made by UntaFX');
 
